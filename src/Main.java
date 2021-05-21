@@ -3,8 +3,7 @@ public class Main {
 
         BonusMilesService service = new BonusMilesService();
 
-        int totalMiles = service.calculate( 7500, 20);
+        int totalMiles = service.calculate(7500, 20);
         System.out.println(totalMiles);
     }
 }
-
